@@ -1,0 +1,18 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2{
+    font-family: 'Fredoka One', cursive;
+    font-size: large;
+    line-height: normal;
+    color:rgb(43, 66, 19);
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style:italic;
+    width: 600;
+    margin-top: auto;
+    margin: 3%;
+    border: 1%;
+}
+
+
