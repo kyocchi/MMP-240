@@ -1,6 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     line-height: 1.6em;
     widows:960px;
     margin-left: auto;
@@ -28,8 +28,8 @@ h2{
 }
 
 li{
-    margin-top: 2em;
-    margin-bottom: 2em ;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em ;
 }
 
 
