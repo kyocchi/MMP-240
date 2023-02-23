@@ -1,6 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     line-height: 1.6em;
     widows:960px;
     margin-left: auto;
@@ -19,6 +19,7 @@ h1,h2{
 
 h1{
     font-size: 2.5rem;
+    margin-left: 1em;
 
 }
 
