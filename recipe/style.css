@@ -3,16 +3,19 @@ body{
 }
 h1,h2{
     font-family: 'Fredoka One', cursive;
-    font-size: large;
-    line-height: normal;
-    color:rgb(43, 66, 19);
-    font-weight: 800;
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+    color:rgb(13, 130, 13);
+    font-weight: bold;
     text-transform: uppercase;
     font-style:italic;
-    width: 600;
+    width: auto;
     margin-top: auto;
     margin: 3%;
     border: 1%;
 }
+h1{font-size: 2.5rem
+;}
+P{line-height: 1.4rem;}
 
 
