@@ -1,21 +1,33 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6em;
+    widows:960px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2xp;
+    color: rgb(27, 90, 92);
+    padding: 1em ;
+    border-radius: 10px;
+
 }
+
 h1,h2{
     font-family: 'Fredoka One', cursive;
-    font-size: 1.125rem;
-    line-height: 1.6rem;
     color:rgb(13, 130, 13);
     font-weight: bold;
-    text-transform: uppercase;
-    font-style:italic;
-    width: auto;
-    margin-top: auto;
-    margin: 3%;
-    border: 1%;
 }
-h1{font-size: 2.5rem
-;}
-P{line-height: 1.4rem;}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+
+}
+h2{
+    margin-top:3em;
+}
+li{
+    margin-bottom: 1em ;
+}
+
 
 
