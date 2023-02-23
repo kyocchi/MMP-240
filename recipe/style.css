@@ -13,6 +13,7 @@ h1,h2{
     margin-top: auto;
     margin: 3%;
     border: 1%;
+    text-shadow: .2em .2em .1em siliver;
 }
 h1{font-size: 2.5rem
 ;}
