@@ -9,9 +9,10 @@ body{
     border: dotted 10px rgb(210, 74, 15);
     width: 600px;
     border-radius: 3%;
+    padding: 5%;
 }
 
-p{font: size 3em; color: #d60ba0;#0dd3da;}
+p{font: size 5em; color: #e50a12;#0dd3da;}
 
 img{
     margin:0 auto;
@@ -26,8 +27,10 @@ h1,h2{
 }
 
 h1{
-    font-size: 2.5rem;
-    margin-left: 1em;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
 
 }
 
