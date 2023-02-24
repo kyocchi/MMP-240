@@ -2,9 +2,8 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125rem;
     line-height: 1.6em;
-    widows:960px;
-    margin-left:  auto;
-    margin-right: auto;
+    display: block;
+    margin:auto;
     width: 600px;
     border: solid 2xp;
     color: rgb(27, 90, 92);
