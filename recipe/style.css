@@ -2,13 +2,21 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125rem;
     line-height: 1.6em;
-    display: block;
-    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 1.5em ;
+    line-height : 1.8 ;
+    border: dotted 10px rgb(210, 74, 15);
     width: 600px;
-    border: solid 2xp;
-    color: rgb(27, 90, 92);
-    padding: 1em;
-    border-radius: 10px;
+    border-radius: 3%;
+}
+
+p{font: size 3em; color: #d60ba0;#0dd3da;}
+
+img{
+    margin:0 auto;
+    margin-top: 4em;
+    display:block;
 }
 
 h1,h2{
@@ -23,13 +31,13 @@ h1{
 
 }
 
-h2{
-    margin-top:3em;
+P,h2{
+    margin-top:4em;
 }
 
 li{
-    margin-top: 1.5em;
-    margin-bottom: 1.5em ;
+    margin-top: 1em;
+    margin-bottom: 1em ;
 }
 
 
