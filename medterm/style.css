@@ -8,12 +8,18 @@ body{
     max-width: 1200px;
     margin:0 auto;
     padding-bottom: 2em;
-    background: rgb(54,205,122);
-background: linear-gradient(90deg, rgba(54,205,122,0.9416141456582633) 0%, rgba(11,101,136,0.3981967787114846) 50%, rgba(11,101,136,0) 100%);
+    background: rgb(174,215,146);
+    background: linear-gradient(90deg, rgba(174,215,146,0.9416141456582633) 0%, rgba(214,246,175,0.5802696078431373) 15%);
 }
 
-p,h1, h2, h3{margin-bottom: 1em;
+p,h2, h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
+
+h1{
+    font-family: ;
+    margin-bottom: 1em;}
 
 .lead{
     color: white;
@@ -24,9 +30,10 @@ h1 img{
 }
 
 header button{
+    background-color: orange;
     background-image: url("images/play.png");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: 10%;
     border-radius: none;
     color: black;
     padding: 10px;
@@ -47,10 +54,12 @@ header p{
 
 h1 image{
     max-width: 100%;
+    max-height: 100%;
 }
 
 button{
     display: block;
+    font-weight:bold;
     width: 7em;
     border: solid 1px;
     border-radius: 5px;
@@ -68,7 +77,9 @@ nav li:hover{
 }
 
 nav{text-align: right;
-    background-color:#98a2f7
+    padding: 0.5em;
+    background-color:#7187f5
+    
 }
 
 nav a{
