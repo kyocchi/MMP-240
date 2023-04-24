@@ -50,12 +50,12 @@ h2, h3 {
 }
 
 .lead{
-    font-family: 'Dancing Script';
+    font-family: 'serif';
     font-size:15px;
     color: white;
     width: 250px;
-    margin-left: 1%;
-    margin: 30px;
+    margin-left: 3%;  
+    margin-top: -1em; 
 }
 
 
@@ -76,7 +76,7 @@ header button{
 header{
     background: rgb(3,56,108);
     background: linear-gradient(90deg, rgba(3,56,108,1) 0%, rgba(24,119,184,0.5942752100840336) 28%, rgba(250,253,255,0) 29%),
-    url(images/full_house13.jpg) no-repeat right; padding:2em; 
+    url(images/full_house13.jpg) no-repeat right; padding:1em; 
    
 }
 
@@ -132,6 +132,9 @@ main{
     width:46%;
 }
 
+footer{
+    clear:both;
+}
 
 .episodes{
     width: 1100px;
@@ -151,6 +154,37 @@ main{
     margin:1em;
     font-size:10px;
    
+}
+
+    header p{
+        width: 100%;
+        margin-top:5em;
+    }
+
+    @media(max-width:768px) {
+        .episodes{
+            flex-direction: column;
+            
+        }
+        
+        .card{width: 100%;
+        }
+    
+        header{
+            background: linear-gradient(90deg, rgba(0,0,0,1)0%, rgba(0,0,0,1)33%, rgba(0,0,0,0)55%, rgba(0,0,0,0)100%),
+            url("images/full_house13.jpg") no-repeat top rigth right /cover,#000;
+    
+    }
+    
+
+    header h1{
+        margin: top 5em;
+    }
+
+    nav li{
+        padding:0.5em 1em;
+    }
+    
 }
 
 .responsive-img{
@@ -175,15 +209,9 @@ main{
     visibility: hidden;
 }
 
+.show-info p strong { font-weight: bold; }
 
 
 
 
-.logo {
-    background-image: url("path/to/logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100px; /*ロゴの幅を調整*/
-    height: 100px; /*ロゴの高さを調整*/
-    opacity: 0.5; /*透明度を指定*/
-  }
+
