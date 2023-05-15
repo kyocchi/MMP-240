@@ -161,7 +161,7 @@ footer{
         margin-top:5em;
     }
 
-    @media(max-width:768px) {
+@media(max-width:768px) {
         .episodes{
             flex-direction: column;
             
@@ -174,16 +174,16 @@ footer{
             background: linear-gradient(90deg, rgba(0,0,0,1)0%, rgba(0,0,0,1)33%, rgba(0,0,0,0)55%, rgba(0,0,0,0)100%),
             url("images/full_house13.jpg") no-repeat top rigth right /cover,#000;
     
-    }
+        }
     
 
     header h1{
         margin: top 5em;
-    }
+        }
 
     nav li{
         padding:0.5em 1em;
-    }
+         }
     
 }
 
