@@ -10,22 +10,24 @@
           margin-left:auto;
           margin-right:auto;
       }
+      
+      .layout img{
+        width:100%;
+      }
 
       .layout{
         display: grid;
         grid-template-rows: auto auto auto;
-        grid-template-columns: 32% 32% 321%;
-        grid-row-gap: 2%;
-        grid-auto-columns: 1em;
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 2% 1em;
       }
   
-      .one .five{
+      .one,.five{
         grid-column-start:1;
         grid-column-end: 4;
-      }
-     </style>
+      }  
+    </style>
   </head>
-  
   <body>
       <div id="wrapper">
           <div class="layout">
